@@ -12,6 +12,10 @@ urlpatterns = [
        'api/auth/',
        include('users.api.urls')
    ),
+   path(
+       'api/categories/',
+       include('categories.api.urls')
+   ),
 
    path(
        'api/',
