@@ -47,8 +47,8 @@ INSTALLED_APPS = [
 
     # Local Apps
     'users',
-    'expenses',
     'categories',
+    'transactions',
 
 ]
 
